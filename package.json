@@ -1,0 +1,25 @@
+{
+  "name": "my-first-rest-api-project",
+  "version": "1.0.0",
+  "description": "This is the first API project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiernope/My-First-Rest-API-Project.git"
+  },
+  "author": "Thiernope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiernope/My-First-Rest-API-Project/issues"
+  },
+  "homepage": "https://github.com/Thiernope/My-First-Rest-API-Project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  }
+}
