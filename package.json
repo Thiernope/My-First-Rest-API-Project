@@ -1,6 +1,7 @@
 {
   "name": "my-first-rest-api-project",
   "version": "1.0.0",
+
   "description": "",
   "main": "index.js",
 
@@ -16,7 +17,6 @@
   "devDependencies": {},
   "scripts": {
     "start": "nodemon ./src/app.js"
-
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,4 @@
   },
 
   "homepage": "https://github.com/Thiernope/My-First-Rest-API-Project#readme"
-
 }
