@@ -11,10 +11,17 @@ mongoose.connect(process.env.DB_CONNECTION,
 },
 ()=>console.log("app is connected to mongoDB")
 );
+
 const authentication = require('./middleware/authenticate.js');
 
 const registerUser = require('./routes/user-route.js');
 app.use('/api', registerUser);
+
+
+const blogsRoute = require('./routes/blogs-route.js');
+app.use('/api', blogsRoute);
+
+
 
 const port = process.env.PORT || 5000;
 

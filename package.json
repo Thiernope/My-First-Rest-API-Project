@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
@@ -15,6 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "nodemon ./src/app.js"
+
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,7 @@
   "bugs": {
     "url": "https://github.com/Thiernope/My-First-Rest-API-Project/issues"
   },
+
   "homepage": "https://github.com/Thiernope/My-First-Rest-API-Project#readme"
+
 }
