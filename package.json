@@ -3,8 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
   "scripts": {
-  "start": "nodemon ./src/app.js"
+    "start": "nodemon ./src/app.js"
+
   },
   "repository": {
     "type": "git",
@@ -15,12 +27,7 @@
   "bugs": {
     "url": "https://github.com/Thiernope/My-First-Rest-API-Project/issues"
   },
-  "homepage": "https://github.com/Thiernope/My-First-Rest-API-Project#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.10.11",
-    "nodemon": "^2.0.6"
-  }
+
+  "homepage": "https://github.com/Thiernope/My-First-Rest-API-Project#readme"
+
 }
